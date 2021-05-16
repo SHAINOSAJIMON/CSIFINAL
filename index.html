@@ -39,7 +39,7 @@
         </div>
     </div>
     <!-- ======= Header ======= -->
-    <main id="body" style="display: none;">
+    <main id="body" style="visibility: hidden;">
         <header id="header" class="fixed-top d-flex align-items-center">
             <div class="container">
                 <div class="header-container d-flex align-items-center">
@@ -877,7 +877,7 @@
 
         function showPage() {
             document.getElementById("loader").style.display = "none";
-            document.getElementById("body").style.display = "block";
+            document.getElementById("body").style.visibility = "visible";
         }
 
         function enableLoading() {
