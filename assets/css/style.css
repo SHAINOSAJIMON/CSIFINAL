@@ -410,9 +410,19 @@ h6 {
 #hero {
     width: 100%;
     height: 80vh;
-    background: url("../img/banner.jpeg") center center;
+    background: url("../img/hero_image_computer.jpg") center center;
     background-size: cover;
     position: relative;
+}
+
+@media (max-width: 720px) {
+    #hero {
+        background: url("../img/hero_image_phone.jpg") center center;
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+        position: relative;
+    }
 }
 
 #hero .container {
@@ -421,7 +431,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1642,7 +1652,7 @@ section {
     /* z-index: 1; */
     left: 20%;
     top: 4%;
-    height: 600px !important; 
+    height: 600px !important;
     width: 470px !important;
     /* padding: auto; */
 }
@@ -1652,7 +1662,7 @@ section {
     /* z-index: 1; */
     left: 25%;
     top: 7%;
-    height: 600px; 
+    height: 600px;
     width: 470px;
     /* padding: auto; */
 }
@@ -1660,7 +1670,7 @@ section {
 .youtube-rahul {
     margin-top: -270px;
     margin-left: 25%;
-    width: 760px !important; 
+    width: 760px !important;
     height: 600px !important;
 }
 
@@ -1672,7 +1682,7 @@ section {
 .youtube-benjamin {
     margin-top: -180px;
     margin-left: 25%;
-    width: 760px; 
+    width: 760px;
     height: 600px;
 }
 
@@ -2164,7 +2174,7 @@ html {
 .card-img-bottom {
     margin-left: 1%;
     margin-top: 5%;
-    width:100%;
+    width: 100%;
 }
 
 .form1 {
@@ -2312,13 +2322,15 @@ html {
     animation: animate-loading 1s linear infinite;
 }
 
-  /* spinner */
-.spinner-wraper{
+
+/* spinner */
+
+.spinner-wraper {
     /* height: 100vh;
     z-index: 999999; */
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -2328,50 +2340,51 @@ html {
     overflow: hidden;
     background: #ffffff;
 }
-  .spinner{
-	width: 150px;
-	height: 50px;
-	border-radius: 25px;
-	background-color: #191970;
-	display: flex;
-	align-items: center;
-	position: relative;
+
+.spinner {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #191970;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.spinner .dot{
-	width: 10px;
-	height: 10px;
-	background-color: #fff;
-	border-radius: 10px;
-	position: absolute;
+.spinner .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
 }
 
-.spinner .dot:first-child{
-	left: 12%;
+.spinner .dot:first-child {
+    left: 12%;
 }
 
-.spinner .dot:nth-child(2){
-	left: 25%;
-	animation: moving 0.7s infinite;
+.spinner .dot:nth-child(2) {
+    left: 25%;
+    animation: moving 0.7s infinite;
 }
 
-.spinner .dot:nth-child(3){
-	left: 50%;
-	animation: moving 0.7s infinite;
+.spinner .dot:nth-child(3) {
+    left: 50%;
+    animation: moving 0.7s infinite;
 }
 
-.spinner .dot:nth-child(4){
-	left: 75%;
+.spinner .dot:nth-child(4) {
+    left: 75%;
 }
 
-@keyframes moving{
-	0%{
-		transform:  translate(0, 0);
-	}
-	50%{
-		transform: translate(100%, 0);
-	}
-	100%{
-		transform: translate(0, 0);
-	}
+@keyframes moving {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(100%, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
