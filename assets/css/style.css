@@ -2412,3 +2412,62 @@ thead th {
     margin-bottom: 10%;
     }
 
+    .gallery{
+        margin-top: 6%;
+    }
+    
+    .gallery img{
+        width: 75%;
+        height: auto;
+        margin-bottom: 20% !important;
+        margin-left: 20% !important;
+        margin-right: 20% !important;
+    }
+    
+    .hori{
+        margin-top: -4% !important;
+    }
+    
+    .port-img{
+        width: 45% !important;
+        height: auto !important;
+    }
+    .port-caro-v{
+        width: 60% !important;
+        height: auto !important;
+    }
+    .port-caro-h{
+        width: 85% !important;
+        height: auto !important;
+    }
+    
+    
+    @media (max-width: 768px) {
+        .gallery{
+        margin-left: -12%;
+        width: 95%;
+        height: auto;
+       }
+    
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+
+        .port-caro-v{
+            margin-left: 5%;
+            width: 80%;
+            height: auto;
+        }
+        .port-caro-h{
+            width: 70% !important;
+            height: auto;
+        }
+
+        .port-img{
+            margin-left: 5%;
+            width: 60% !important;
+            height: auto;
+        }
+    }
+    }
