@@ -1918,9 +1918,20 @@ body {
         margin-left: 26%;
         margin-right: 15%;
     }
-    .b-event {
-        display: none;
-    }
+     .b-event {
+        background-color: #191970;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 28px;
+        color: white;
+        margin-left: 42%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin-left: 26%;
+        margin-right: 15%; 
+    } 
     .filter {
         display: none;
     }
@@ -2469,5 +2480,4 @@ thead th {
             width: 60% !important;
             height: auto;
         }
-    }
     }
