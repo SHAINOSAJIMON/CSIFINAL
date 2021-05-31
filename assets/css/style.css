@@ -2460,39 +2460,13 @@ thead th {
         height: auto !important;
     }
     .port-caro-h{
-        width: 85% !important;
+        width: 80% !important;
         height: auto !important;
     }
     
     
-    @media (max-width: 368px) {
-        .gallery{
-        margin-left: -5vh;
-        width: 95%;
-        height: auto;
-       }
     
-        .gallery img{
-            width: 100%;
-            height: auto;
-        }
-        .port-caro-v{
-            margin-left: 5% ;
-            width: 80%;
-            height: auto;
-        }
-        .port-caro-h{
-            width: 70% !important;
-            height: auto;
-        }
-
-        .port-img{
-            margin-left: 5%;
-            width: 60% !important;
-            height: auto;
-        }
-    }
-    @media (min-width: 368px) {
+    @media (max-width: 768px) {
         .gallery{
             margin-left: -6vh;
             width: 95%;
@@ -2500,7 +2474,7 @@ thead th {
            }
         
             .gallery img{
-                width: 100%;
+                width: 100% !important;
                 height: auto;
             }
             .port-caro-v{
@@ -2509,7 +2483,8 @@ thead th {
                 height: auto;
             }
             .port-caro-h{
-                width: 8% !important;
+                margin-left: 2%;
+                width: 80% !important;
                 height: auto;
             }
     
@@ -2518,4 +2493,32 @@ thead th {
                 width: 60% !important;
                 height: auto;
             }
+    }
+    @media (max-width: 368px) {
+        .gallery{
+        margin-left: -6vh;
+        width: 95%;
+        height: auto;
+       }
+    
+        .gallery img{
+            width: 100% !important;
+            height: auto;
+        }
+        .port-caro-v{
+            margin-left: 5% ;
+            width: 80%;
+            height: auto;
+        }
+        .port-caro-h{
+            margin-left: 4%;
+            width: 65% !important;
+            height: auto;
+        }
+
+        .port-img{
+            margin-left: 5%;
+            width: 60% !important;
+            height: auto;
+        }
     }
