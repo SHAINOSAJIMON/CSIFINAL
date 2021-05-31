@@ -1849,7 +1849,7 @@ body {
         width: 90% !important;
     }
     .portfolio-details .portfolio-info.talk {
-        margin-left: 6%;
+        margin-left: 10%;
         width: 90% !important;
     }
     .event1 {
@@ -1891,7 +1891,8 @@ body {
         height: 200px;
     }
     .portfolio-details .portfolio-details-carousel {
-        margin-left: 0%;
+        margin-top: 9%;
+        margin-left: 5%;
     }
     .portfolio-details-container {
         left: -19%;
