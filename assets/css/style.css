@@ -2467,7 +2467,7 @@ thead th {
     
     @media (max-width: 768px) {
         .gallery{
-        margin-left: -12%;
+        margin-left: -6vh;
         width: 95%;
         height: auto;
        }
@@ -2478,8 +2478,8 @@ thead th {
         }
 
         .port-caro-v{
-            margin-left: 5%;
-            width: 80%;
+            margin-left: 3vh !important;
+            width: 90%;
             height: auto;
         }
         .port-caro-h{
