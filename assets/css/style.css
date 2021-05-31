@@ -1859,7 +1859,6 @@ body {
         left: 20%;
         top: 7%;
         height: 600px;
-        width: 90% !important;
         /* padding: auto; */
     }
     .event1 {
@@ -1904,7 +1903,6 @@ body {
     .portfolio-details .portfolio-details-carousel {
         margin-left: -3%;
         margin-top: 10%;
-        width:90% !important;
     }
     .portfolio-details-container {
         left: -19%;
@@ -1914,7 +1912,6 @@ body {
         /* z-index: 1; */
         margin-top: 50px;
         height: 100%;
-        width: 90% !important;
         margin-left: -32%;
     }
     .b-event2 {
