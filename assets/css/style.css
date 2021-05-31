@@ -2465,7 +2465,7 @@ thead th {
     }
     
     
-    @media (max-width: 768px) {
+    @media (max-width: 368px) {
         .gallery{
         margin-left: -6vh;
         width: 95%;
@@ -2476,10 +2476,9 @@ thead th {
             width: 100%;
             height: auto;
         }
-
         .port-caro-v{
-            margin-left: 3vh !important;
-            width: 90%;
+            margin-left: 5% ;
+            width: 80%;
             height: auto;
         }
         .port-caro-h{
@@ -2492,4 +2491,31 @@ thead th {
             width: 60% !important;
             height: auto;
         }
+    }
+    @media (min-width: 368px) {
+        .gallery{
+            margin-left: -6vh;
+            width: 95%;
+            height: auto;
+           }
+        
+            .gallery img{
+                width: 100%;
+                height: auto;
+            }
+            .port-caro-v{
+                margin-left: 9vh ;
+                width: 80%;
+                height: auto;
+            }
+            .port-caro-h{
+                width: 70% !important;
+                height: auto;
+            }
+    
+            .port-img{
+                margin-left: 5%;
+                width: 60% !important;
+                height: auto;
+            }
     }
