@@ -2441,7 +2441,7 @@ thead th {
     }
     
     .gallery img{
-        width: 75%;
+        width: 85% ;
         height: auto;
         margin-bottom: 20% !important;
         margin-left: 20% !important;
@@ -2461,30 +2461,59 @@ thead th {
         height: auto !important;
     }
     .port-caro-h{
-        width: 85% !important;
+        width: 80% !important;
         height: auto !important;
     }
     
     
+    
     @media (max-width: 768px) {
         .gallery{
-        margin-left: -12%;
+            margin-left: -6vh;
+            width: 95%;
+            height: auto;
+           }
+        
+            .gallery img{
+                width: 100% !important;
+                height: auto;
+            }
+            .port-caro-v{
+                margin-left: 7vh ;
+                width: 80%;
+                height: auto;
+            }
+            .port-caro-h{
+                width: 80% !important;
+                height: auto;
+            }
+    
+            .port-img{
+                margin-left: 5%;
+                width: 60% !important;
+                height: auto;
+            }
+    }
+    @media (max-width: 368px) {
+        .gallery{
+        margin-left: -6vh;
         width: 95%;
         height: auto;
        }
     
         .gallery img{
-            width: 100%;
+            margin: -5%;
+            width: 120% !important;
             height: auto;
         }
-
         .port-caro-v{
-            margin-left: 5%;
+            margin-left: 5% ;
             width: 80%;
             height: auto;
         }
         .port-caro-h{
-            width: 70% !important;
+            margin-left: 2%;
+            width: 65% !important;
             height: auto;
         }
 
