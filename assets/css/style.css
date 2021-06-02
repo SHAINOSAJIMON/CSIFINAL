@@ -1904,10 +1904,11 @@ body {
     .portfolio-details .portfolio-details-carousel {
         margin-left: -3%;
         margin-top: 10%;
+
     }
     .portfolio-details-container {
-        left: -19%;
-    }
+         left: -19%;
+    } 
     .portfolio-details-carousel-gew {
         /* position: relative; */
         /* z-index: 1; */
